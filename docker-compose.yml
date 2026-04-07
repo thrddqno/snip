@@ -1,0 +1,16 @@
+name: snip
+services:
+  snip-db:
+    image: postgres:latest
+    container_name: snip-db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: snip
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/
+
+volumes:
+  db-data: {}
