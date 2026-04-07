@@ -1,3 +1,14 @@
 spring:
   application:
     name: snip-api
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  profiles:
+    active: dev
+server:
+  address: 0.0.0.0
+  port: 8686
+springdotenv:
+  directory: ../
