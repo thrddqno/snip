@@ -1,0 +1,11 @@
+#secrets
+.env
+
+#vscode/codium
+.vscode/
+
+#idea
+.idea
+*.iws
+*.iml
+*.ipr
