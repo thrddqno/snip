@@ -1,4 +1,4 @@
-package com.thrddqno.snipapi.clicks;
+package com.thrddqno.snipapi.clicks.domain;
 
 import com.thrddqno.snipapi.url.domain.Url;
 import jakarta.persistence.*;
